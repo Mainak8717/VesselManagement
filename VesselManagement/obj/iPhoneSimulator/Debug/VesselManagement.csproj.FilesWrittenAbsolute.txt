@@ -1,0 +1,10 @@
+/Users/Mainak/Projects/VesselManagement/VesselManagement/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/Mainak/Projects/VesselManagement/VesselManagement/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/ibtool/_BundleResourceWithLogicalName.items
+/Users/Mainak/Projects/VesselManagement/VesselManagement/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/actool/_PartialAppManifest.items
+/Users/Mainak/Projects/VesselManagement/VesselManagement/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/actool/_BundleResourceWithLogicalName.items
+/Users/Mainak/Projects/VesselManagement/VesselManagement/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/optimized/menu.png
+/Users/Mainak/Projects/VesselManagement/VesselManagement/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/optimized/
+/Users/Mainak/Projects/VesselManagement/VesselManagement/bin/iPhoneSimulator/Debug/VesselManagement.pdb
+/Users/Mainak/Projects/VesselManagement/VesselManagement/bin/iPhoneSimulator/Debug/VesselManagement.exe
+/Users/Mainak/Projects/VesselManagement/VesselManagement/obj/iPhoneSimulator/Debug/VesselManagement.exe
+/Users/Mainak/Projects/VesselManagement/VesselManagement/obj/iPhoneSimulator/Debug/VesselManagement.pdb

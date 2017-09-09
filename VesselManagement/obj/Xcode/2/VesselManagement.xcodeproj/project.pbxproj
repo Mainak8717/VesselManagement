@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE713F840000000000000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 859358C00000000000000000 /* UIKit.framework */; };
+		6C691D520000000000000000 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F38B368E0000000000000000 /* MapKit.framework */; };
+		A3650C390000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A8725750000000000000000 /* Foundation.framework */; };
+		DA60FB200000000000000000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6183145C0000000000000000 /* CoreGraphics.framework */; };
+		1A76ACB80000000000000000 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A198C5F40000000000000000 /* Assets.xcassets */; };
+		ABB3427A0000000000000000 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32D55BB60000000000000000 /* LaunchScreen.storyboard */; };
+		F9C491D60000000000000000 /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80E6AB120000000000000000 /* LoginVC.xib */; };
+		5EEB41A70000000000000000 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E60D5AE30000000000000000 /* HomeViewController.xib */; };
+		A574B18F0000000000000000 /* MenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C96CACB0000000000000000 /* MenuCell.xib */; };
+		64DC083B0000000000000000 /* SideBarMenuController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBFE21770000000000000000 /* SideBarMenuController.xib */; };
+		B2ED57970000000000000000 /* TripCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A0F70D30000000000000000 /* TripCell.xib */; };
+		62C72D420000000000000000 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E9E9467E0000000000000000 /* Info.plist */; };
+		8B7EE9B10000000000000000 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 12A102ED0000000000000000 /* Entitlements.plist */; };
+		F976C77F0000000000000000 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 8098E0BB0000000000000000 /* menu.png */; };
+		E04C8C110000000000000000 /* CreateTripVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 676EA54D0000000000000000 /* CreateTripVC.xib */; };
+		2019A8F50000000000000000 /* CreateTripVC.h in Sources */ = {isa = PBXBuildFile; fileRef = A73BC2310000000000000000 /* CreateTripVC.h */; };
+		5DD1EAE00000000000000000 /* CreateTripVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F4041C0000000000000000 /* CreateTripVC.m */; };
+		F481851D0000000000000000 /* TripCell.h in Sources */ = {isa = PBXBuildFile; fileRef = 7BA39E590000000000000000 /* TripCell.h */; };
+		344EA2010000000000000000 /* TripCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB70BB3D0000000000000000 /* TripCell.m */; };
+		C7A012BC0000000000000000 /* SideBarMenuController.h in Sources */ = {isa = PBXBuildFile; fileRef = 4EC22BF80000000000000000 /* SideBarMenuController.h */; };
+		99F313EB0000000000000000 /* SideBarMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21152D270000000000000000 /* SideBarMenuController.m */; };
+		FF19C3BC0000000000000000 /* MenuCell.h in Sources */ = {isa = PBXBuildFile; fileRef = 863BDCF80000000000000000 /* MenuCell.h */; };
+		3EE6E0A00000000000000000 /* MenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C608F9DC0000000000000000 /* MenuCell.m */; };
+		F791E4480000000000000000 /* HomeViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 7EB3FD840000000000000000 /* HomeViewController.h */; };
+		D02376620000000000000000 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57458F9E0000000000000000 /* HomeViewController.m */; };
+		1AC60CE00000000000000000 /* LoginVC.h in Sources */ = {isa = PBXBuildFile; fileRef = 88CE7A0A0000000000000000 /* LoginVC.h */; };
+		E30F20E50000000000000000 /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A313A210000000000000000 /* LoginVC.m */; };
+		84A4C4180000000000000000 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = BC6DD5400000000000000000 /* AppDelegate.h */; };
+		C471E0FC0000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B93FA380000000000000000 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		502E82B90000000000000000 /* VesselManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "VesselManagement.app"; path = "VesselManagement.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		859358C00000000000000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; };
+		F38B368E0000000000000000 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MapKit.framework"; path = "System/Library/Frameworks/MapKit.framework"; sourceTree = SDKROOT; };
+		2A8725750000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		6183145C0000000000000000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreGraphics.framework"; path = "System/Library/Frameworks/CoreGraphics.framework"; sourceTree = SDKROOT; };
+		A198C5F40000000000000000 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Assets.xcassets"; path = "Assets.xcassets"; sourceTree = "<group>"; };
+		32D55BB60000000000000000 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "LaunchScreen.storyboard"; path = "LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		80E6AB120000000000000000 /* LoginVC.xib */ = {isa = PBXFileReference; name = "LoginVC.xib"; path = "LoginVC.xib"; sourceTree = "<group>"; };
+		E60D5AE30000000000000000 /* HomeViewController.xib */ = {isa = PBXFileReference; name = "HomeViewController.xib"; path = "HomeViewController.xib"; sourceTree = "<group>"; };
+		2C96CACB0000000000000000 /* MenuCell.xib */ = {isa = PBXFileReference; name = "MenuCell.xib"; path = "Menu/MenuCell.xib"; sourceTree = "<group>"; };
+		EBFE21770000000000000000 /* SideBarMenuController.xib */ = {isa = PBXFileReference; name = "SideBarMenuController.xib"; path = "Menu/SideBarMenuController.xib"; sourceTree = "<group>"; };
+		3A0F70D30000000000000000 /* TripCell.xib */ = {isa = PBXFileReference; name = "TripCell.xib"; path = "TripCell.xib"; sourceTree = "<group>"; };
+		E9E9467E0000000000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info.plist"; path = "Info.plist"; sourceTree = "<group>"; };
+		12A102ED0000000000000000 /* Entitlements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Entitlements.plist"; path = "Entitlements.plist"; sourceTree = "<group>"; };
+		8098E0BB0000000000000000 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "menu.png"; path = "menu.png"; sourceTree = "<group>"; };
+		676EA54D0000000000000000 /* CreateTripVC.xib */ = {isa = PBXFileReference; name = "CreateTripVC.xib"; path = "CreateTripVC.xib"; sourceTree = "<group>"; };
+		A73BC2310000000000000000 /* CreateTripVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CreateTripVC.h"; path = "CreateTripVC.h"; sourceTree = "<group>"; };
+		E4F4041C0000000000000000 /* CreateTripVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CreateTripVC.m"; path = "CreateTripVC.m"; sourceTree = "<group>"; };
+		7BA39E590000000000000000 /* TripCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "TripCell.h"; path = "TripCell.h"; sourceTree = "<group>"; };
+		BB70BB3D0000000000000000 /* TripCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "TripCell.m"; path = "TripCell.m"; sourceTree = "<group>"; };
+		4EC22BF80000000000000000 /* SideBarMenuController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SideBarMenuController.h"; path = "SideBarMenuController.h"; sourceTree = "<group>"; };
+		21152D270000000000000000 /* SideBarMenuController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "SideBarMenuController.m"; path = "SideBarMenuController.m"; sourceTree = "<group>"; };
+		863BDCF80000000000000000 /* MenuCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MenuCell.h"; path = "MenuCell.h"; sourceTree = "<group>"; };
+		C608F9DC0000000000000000 /* MenuCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "MenuCell.m"; path = "MenuCell.m"; sourceTree = "<group>"; };
+		7EB3FD840000000000000000 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "HomeViewController.h"; path = "HomeViewController.h"; sourceTree = "<group>"; };
+		57458F9E0000000000000000 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "HomeViewController.m"; path = "HomeViewController.m"; sourceTree = "<group>"; };
+		88CE7A0A0000000000000000 /* LoginVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "LoginVC.h"; path = "LoginVC.h"; sourceTree = "<group>"; };
+		6A313A210000000000000000 /* LoginVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "LoginVC.m"; path = "LoginVC.m"; sourceTree = "<group>"; };
+		BC6DD5400000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		4B93FA380000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C25016790000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE713F840000000000000000 /* UIKit.framework in Frameworks */,
+				6C691D520000000000000000 /* MapKit.framework in Frameworks */,
+				A3650C390000000000000000 /* Foundation.framework in Frameworks */,
+				DA60FB200000000000000000 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37CFD3BB0000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				9425558F0000000000000000 /* VesselManagement */,
+				9A512D100000000000000000 /* Frameworks */,
+				65FA94A50000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65FA94A50000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				502E82B90000000000000000 /* VesselManagement.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		9A512D100000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				859358C00000000000000000 /* UIKit.framework */,
+				F38B368E0000000000000000 /* MapKit.framework */,
+				2A8725750000000000000000 /* Foundation.framework */,
+				6183145C0000000000000000 /* CoreGraphics.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		9425558F0000000000000000 /* VesselManagement */ = {
+			isa = PBXGroup;
+			children = (
+				BC6DD5400000000000000000 /* AppDelegate.h */,
+				A198C5F40000000000000000 /* Assets.xcassets */,
+				A73BC2310000000000000000 /* CreateTripVC.h */,
+				676EA54D0000000000000000 /* CreateTripVC.xib */,
+				12A102ED0000000000000000 /* Entitlements.plist */,
+				7EB3FD840000000000000000 /* HomeViewController.h */,
+				E60D5AE30000000000000000 /* HomeViewController.xib */,
+				E9E9467E0000000000000000 /* Info.plist */,
+				32D55BB60000000000000000 /* LaunchScreen.storyboard */,
+				88CE7A0A0000000000000000 /* LoginVC.h */,
+				80E6AB120000000000000000 /* LoginVC.xib */,
+				8098E0BB0000000000000000 /* menu.png */,
+				863BDCF80000000000000000 /* MenuCell.h */,
+				4EC22BF80000000000000000 /* SideBarMenuController.h */,
+				7BA39E590000000000000000 /* TripCell.h */,
+				3A0F70D30000000000000000 /* TripCell.xib */,
+				2938A1490000000000000000 /* Menu */,
+				6344EF5B0000000000000000 /* Supporting Files */,
+			);
+			name = "VesselManagement";
+			sourceTree = "<group>";
+		};
+		2938A1490000000000000000 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				2C96CACB0000000000000000 /* MenuCell.xib */,
+				EBFE21770000000000000000 /* SideBarMenuController.xib */,
+			);
+			name = "Menu";
+			sourceTree = "<group>";
+		};
+		6344EF5B0000000000000000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B93FA380000000000000000 /* AppDelegate.m */,
+				E4F4041C0000000000000000 /* CreateTripVC.m */,
+				57458F9E0000000000000000 /* HomeViewController.m */,
+				6A313A210000000000000000 /* LoginVC.m */,
+				C608F9DC0000000000000000 /* MenuCell.m */,
+				21152D270000000000000000 /* SideBarMenuController.m */,
+				BB70BB3D0000000000000000 /* TripCell.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		652F08350000000000000000 /* VesselManagement */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAC837050000000000000000 /* Build configuration list for PBXNativeTarget "VesselManagement" */;
+			buildPhases = (
+				A5C7B1890000000000000000 /* Sources */,
+				C25016790000000000000000 /* Frameworks */,
+				B40BE4010000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VesselManagement";
+			productName = "VesselManagement";
+			productReference = 502E82B90000000000000000 /* VesselManagement.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		319142D00000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = E8F2F7EF0000000000000000 /* Build configuration list for PBXProject "VesselManagement" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 37CFD3BB0000000000000000;
+			productRefGroup = 65FA94A50000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				652F08350000000000000000 /* VesselManagement */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B40BE4010000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A76ACB80000000000000000 /* Assets.xcassets in Resources */,
+				ABB3427A0000000000000000 /* LaunchScreen.storyboard in Resources */,
+				F9C491D60000000000000000 /* LoginVC.xib in Resources */,
+				5EEB41A70000000000000000 /* HomeViewController.xib in Resources */,
+				A574B18F0000000000000000 /* MenuCell.xib in Resources */,
+				64DC083B0000000000000000 /* SideBarMenuController.xib in Resources */,
+				B2ED57970000000000000000 /* TripCell.xib in Resources */,
+				62C72D420000000000000000 /* Info.plist in Resources */,
+				8B7EE9B10000000000000000 /* Entitlements.plist in Resources */,
+				F976C77F0000000000000000 /* menu.png in Resources */,
+				E04C8C110000000000000000 /* CreateTripVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5C7B1890000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2019A8F50000000000000000 /* CreateTripVC.h in Sources */,
+				5DD1EAE00000000000000000 /* CreateTripVC.m in Sources */,
+				F481851D0000000000000000 /* TripCell.h in Sources */,
+				344EA2010000000000000000 /* TripCell.m in Sources */,
+				C7A012BC0000000000000000 /* SideBarMenuController.h in Sources */,
+				99F313EB0000000000000000 /* SideBarMenuController.m in Sources */,
+				FF19C3BC0000000000000000 /* MenuCell.h in Sources */,
+				3EE6E0A00000000000000000 /* MenuCell.m in Sources */,
+				F791E4480000000000000000 /* HomeViewController.h in Sources */,
+				D02376620000000000000000 /* HomeViewController.m in Sources */,
+				1AC60CE00000000000000000 /* LoginVC.h in Sources */,
+				E30F20E50000000000000000 /* LoginVC.m in Sources */,
+				84A4C4180000000000000000 /* AppDelegate.h in Sources */,
+				C471E0FC0000000000000000 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE2660870000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = MonoTouch;
+		};
+		171DB8D90000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				PRODUCT_NAME = "VesselManagement";
+				WRAPPER_EXTENSION = app;
+			};
+			name = MonoTouch;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8F2F7EF0000000000000000 /* Build configuration list for PBXProject "VesselManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE2660870000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+		BAC837050000000000000000 /* Build configuration list for PBXNativeTarget "VesselManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				171DB8D90000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 319142D00000000000000000 /* Project object */;
+}
